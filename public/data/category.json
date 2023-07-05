@@ -1,0 +1,38 @@
+{
+    "type" : [
+        {"name" : "밑반찬" ,"value" : 1 },
+        {"name" : "메인반찬" ,"value" : 2 },
+        {"name" : "국/탕" ,"value" : 3 },
+        {"name" : "찌개" ,"value" : 4 },
+        {"name" : "디저트" ,"value" : 5 },
+        {"name" : "면/만두" ,"value" : 6 },
+        {"name" : "밥/죽/떡" ,"value" : 7 },
+        {"name" : "김치/젓갈/장" ,"value" : 8 },
+        {"name" : "양념/소스/잼" ,"value" : 9 },
+        {"name" : "양식" ,"value" : 10 },
+        {"name" : "샐러드" ,"value" : 11 },
+        {"name" : "스프" ,"value" : 12 },
+        {"name" : "빵" ,"value" : 13 },
+        {"name" : "과자" ,"value" : 14 },
+        {"name" : "차/음료/술" ,"value" : 15 },
+        {"name" : "기타" ,"value" : 16 }
+    ],
+    "ingredients" : [
+        {"name" : "소고기" ,"value" : 1 },
+        {"name" : "돼지고기" ,"value" : 2 },
+        {"name" : "닭고기" ,"value" : 3 },
+        {"name" : "육류" ,"value" : 4 },
+        {"name" : "채소류" ,"value" : 5 },
+        {"name" : "해물류" ,"value" : 6 },
+        {"name" : "달걀/유제품" ,"value" : 7 },
+        {"name" : "가공식품" ,"value" : 8 },
+        {"name" : "쌀" ,"value" : 9 },
+        {"name" : "밀가루" ,"value" : 10 },
+        {"name" : "건어물류" ,"value" : 11 },
+        {"name" : "버섯류" ,"value" : 12 },
+        {"name" : "과일류" ,"value" : 14 },
+        {"name" : "공/견과류" ,"value" : 15 },
+        {"name" : "곡류" ,"value" : 16 },
+        {"name" : "기타" ,"value" : 17 }
+    ]
+}

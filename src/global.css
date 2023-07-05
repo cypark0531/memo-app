@@ -1,0 +1,15 @@
+.main-accordion {
+    position: absolute;
+    width: 7vw;
+    left: 76vw;
+    top: 5vh;
+}
+.checkbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .check-item {
+    display: inline-block;
+    margin-right: 20px;
+}

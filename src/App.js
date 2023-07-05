@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Content from './components/Content';
+import CustomNavbar from './components/CustomNavbar';
+import { Route, Routes } from 'react-router-dom';
+import Edit from './components/Edit';
+import React, { useEffect, useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { fetchCategories } from './reducers/categorySlice';
+import './bootstrap.min.css';
+import './global.css';
 
-function App() {
+const App = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchCategories());
+  }, [dispatch]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <div className="container app">
+          <CustomNavbar />
+          <Routes >
+            <Route exact path="/" element={<Content/>} />
+            <Route path="/edit" element={<Edit/>}/>
+          </Routes>
+        </div>
   );
-}
+};
 
 export default App;
